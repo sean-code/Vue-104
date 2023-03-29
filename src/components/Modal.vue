@@ -1,6 +1,7 @@
 <template>
-    <div class='backdrop'>
+    <div class="backdrop">
         <div class="model">
+            <h1>Modal Title</h1>
             <p>Modal Content</p>
         </div>
     </div>
@@ -8,19 +9,24 @@
 
 <style scoped>
 .modal{
-    width: 480px;
+    width: 400px;
     padding: 20px;
-    margin: 100px auto;
-    background: #fafafa;
+    margin: 100px;
+    background: white;
     border-radius: 10px;
 }
 
 .backdrop{
     top: 0;
     position: fixed;
-    background: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
+    background: rgb(246, 249, 249);
+    width: 40%;
+    height: 30%;
+}
+.modal h1{
+    color: #03cfb4;
+    border: none;
+    padding: 0;
 }
 
 </style>
