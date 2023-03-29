@@ -2,7 +2,7 @@
   <h1>{{ title }}</h1>
   <input type="text" ref="name" />
   <button @click="handleClick">Click Me</button>
-  <Modal header="Sign up for the Giveaway" />
+  <Modal header="Sign up for the Giveaway" content="This here now becomes content" :arr="[45, 'age']" />
 </template>
 
 <script>

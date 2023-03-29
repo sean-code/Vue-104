@@ -2,14 +2,15 @@
     <div class="backdrop">
         <div class="model">
             <h1>{{ header }}</h1>
-            <p>Modal Content</p>
+            <p>{{ content }}</p>
+            <p>{{ arr }}</p>
         </div>
     </div>
 </template>
 
 <script>
     export default{
-        props:['header']
+        props:['header', 'content', 'arr']
     }
 </script>
 
